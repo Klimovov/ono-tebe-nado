@@ -1,1 +1,1 @@
-https://github.com/Klimovov/ono-tebe-nado
+https://github.com/Klimovov/ono-tebe-nado-fd
