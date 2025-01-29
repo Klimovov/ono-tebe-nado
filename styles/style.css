@@ -58,25 +58,24 @@
 }
 /*общий блок адреса*/
 .address {
-  text-decoration: underline;
   text-underline-offset: 4px;
   font-style: normal;
-}
-
-/*блок адреса хедера*/
-.header__address {
-  margin: 10px 0 0 186px;
   font-size: 18px;
   padding-right: 25px;
   line-height: 1.36;
   letter-spacing: 0.2px;
 }
 
+/*блок адреса хедера*/
+.header__address {
+  margin: 10px 0 0 186px;  
+}
+
 /*блок оно тебе надо*/
 .cover {
   position: relative;
   width: 1100px;
-  height: 757px; /*без указания высоты секция схлопывается, в чём проблема, найти не смог. В пачке советов надавали, но тоже ничего не помогло*/
+  padding-bottom: 335px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -119,7 +118,6 @@
 .aligned-text_center {
   display: flex;
   align-self: center;
-  padding-right: 28px; /*без отступа не совпадает с макетом*/
   letter-spacing: 30px;
 }
 
@@ -127,6 +125,11 @@
 .aligned-text_right {
   display: flex;
   align-self: flex-end;
+}
+
+/*интервал для второй буквы "е" в слове "тебе"*/
+.letter-spacing-for-e {
+  letter-spacing: 90px;
 }
 
 /*управление межбуквенным расстоянием*/
@@ -341,13 +344,8 @@
 }
 
 /*блок контактов расположенный в подвале*/
-.footer__address__position {
-  margin: 0 180px 0 50px;
-  height: 105px; 
-  font-size: 18px;
-  padding-right: 25px;
-  line-height: 1.36;
-  letter-spacing: 0.2px
+.footer__address {
+  margin: 0 180px 0 50px;  
 }
 
 /*блок навигации по списку ссылок*/
